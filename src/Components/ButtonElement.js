@@ -2,36 +2,29 @@ import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 
 export const NavBtn = styled.nav`
-    display: flex;
-    align-items: center;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
+  display: flex;
+  align-items: center;
 `
-
 
 export const NavBtnLink = styled(LinkR)`
-    background: ${({primary}) => (primary ? '#56ecd6' : 'transparent')};
-    white-space: nowrap;
-    padding: 10px 22px;
-    color: #010606;
-    font-size: 16px;
-    outline: none;
-    border: 2px solid #56ecd6;
-    cursor: pointer;
+  background: ${({ primary }) => (primary ? '#56ecd6' : 'transparent')};
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: #010606;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid #56ecd6;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
     transition: all 0.2s ease-in-out;
-    text-decoration: none;
-
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? 'transparent' : '#56ecd6')};
-        color: ${({dark}) => (dark ? '#fff' : '#010606')};
-        border: 2px solid #56ecd6;
-    }
+    background: ${({ primary }) => (primary ? 'transparent' : '#56ecd6')};
+    color: ${({ dark }) => (dark ? '#fff' : '#010606')};
+    border: 2px solid #56ecd6;
+  }
 `
-
-
 
 /* import styled from 'styled-components'
 import { Link } from 'react-scroll'

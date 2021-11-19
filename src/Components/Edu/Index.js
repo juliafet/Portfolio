@@ -22,27 +22,32 @@ const EduSection = () => {
             <EduList>
               <IoIosRibbon />
               <EduListH3>INCO Academy </EduListH3>
-              <EduListP>INCODE - Web Development Bootcamp</EduListP>
+              <EduListP>INCODE - Full Stack Web Development Course </EduListP>
             </EduList>
             <EduList>
               <IoIosRibbon />
               <EduListH3>Code Like a Girl </EduListH3>
-              <EduListP>FOUNDATIONS OF WEB DEV</EduListP>
+              <EduListP>Foundation Of Web Development</EduListP>
             </EduList>
             <EduList>
               <IoIosRibbon />
               <EduListH3>Udemy </EduListH3>
-              <EduListP>The Web Developer Bootcamp by Colt Steel</EduListP>
+              <EduListP>
+                The Web Developer Bootcamp by Colt Steel - HTML, CSS, JS, Node,
+                and More!
+              </EduListP>
             </EduList>
             <EduList>
               <IoIosRibbon />
               <EduListH3>Coursera </EduListH3>
-              <EduListP>Introduction to Programming Using Python</EduListP>
+              <EduListP>Fundamentals of programming in Python 3</EduListP>
             </EduList>
             <EduList>
               <IoIosRibbon />
               <EduListH3>Udemy</EduListH3>
-              <EduListP>Python Bootcamp From Zero to Hero</EduListP>
+              <EduListP>
+                Complete Python Bootcamp From Zero to Hero in Python
+              </EduListP>
             </EduList>
             <EduList>
               <IoIosRibbon />

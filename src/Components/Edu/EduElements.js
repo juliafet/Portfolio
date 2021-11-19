@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const EduContainer = styled.div`
   height: auto;
-  padding: 100px 0;
+  padding: 100px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,8 +13,7 @@ export const EduContainer = styled.div`
 export const EduH1 = styled.h1`
   font-size: 2.5rem;
   color: black;
-  margin-bottom: 44px;
-  margin-top: 24px;
+  margin: 24px 40px 44px;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;

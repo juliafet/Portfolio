@@ -12,13 +12,13 @@ import {
   FormButton,
 } from './ContactElements'
 
-const Contact = () => {
+const Contact = ({ toggle }) => {
   return (
     <>
       <Container>
         <FormWrap>
           <Icon to="/">Julia</Icon>
-          <FormContent>
+          <FormContent onClick={toggle}>
             <Form actiom="#">
               <FormH1>
                 Looking for a junior developer to join your team and want to

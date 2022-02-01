@@ -22,7 +22,7 @@ import {
   DiFirebase,
   DiCss3,
 } from 'react-icons/di'
-import { SiPostman, SiFigma, SiExpress } from 'react-icons/si'
+import { SiPostman, SiFigma } from 'react-icons/si'
 import {
   ProjectsContainer,
   ProjectsH1,

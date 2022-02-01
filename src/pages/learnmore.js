@@ -1,11 +1,14 @@
 import React from 'react'
+import Learnmore from '../Components/Learnmore'
+import Footer from '../Components/Footer'
 
-const Learnmore = () => {
-    return (
-        <div>
-            
-        </div>
-    )
+const LearnmorePage = () => {
+  return (
+    <>
+      <Learnmore />
+      <Footer />
+    </>
+  )
 }
 
-export default Learnmore
+export default LearnmorePage

@@ -59,6 +59,40 @@ const Projects = () => {
           </ProjectsIcons>
         </ProjectsCard>
         <ProjectsCard>
+          <ProjectsImg src={Icon4} />
+          <ProjectsH2>Portfolio</ProjectsH2>
+          <ProjectsP>
+            {/* Portfolio website, where I used React with styled-components. */}
+            HTML, CSS, React, Styled-component
+          </ProjectsP>
+          <ProjectsIcons>
+            <DiJavascript1 size={28} />
+            <DiReact size={28} />
+            <DiHtml5 size={28} />
+            <DiGithubBadge size={28} />
+            <DiSass size={28} />
+          </ProjectsIcons>
+        </ProjectsCard>
+        <ProjectsCard>
+          <ProjectsImg src={Icon7} />
+          <ProjectsH2>The Client-server Web App with Autentication.</ProjectsH2>
+          <ProjectsP>
+            {/* The Web App for internal use of employees who are able to create
+            accounts and their own schedules. Pages are only accessible to
+            registared users. The data of registered users and schudule details
+            are stored in PpostgresQl. */}
+            HTML, CSS, Express, Postgress, Node.js
+          </ProjectsP>
+          <ProjectsIcons>
+            <DiJavascript1 size={28} />
+            <DiHtml5 size={28} />
+            <DiGithubBadge size={28} />
+            <DiNodejsSmall size={28} />
+            <DiPostgresql size={28} />
+            <SiPostman size={28} />
+          </ProjectsIcons>
+        </ProjectsCard>
+        <ProjectsCard>
           <ProjectsImg src={Icon2} />
           <ProjectsH2>Online BeautyShop</ProjectsH2>
           <ProjectsP>
@@ -91,21 +125,6 @@ const Projects = () => {
           </ProjectsIcons>
         </ProjectsCard>
         <ProjectsCard>
-          <ProjectsImg src={Icon4} />
-          <ProjectsH2>Portfolio</ProjectsH2>
-          <ProjectsP>
-            {/* Portfolio website, where I used React with styled-components. */}
-            HTML, CSS, React, Styled-component
-          </ProjectsP>
-          <ProjectsIcons>
-            <DiJavascript1 size={28} />
-            <DiReact size={28} />
-            <DiHtml5 size={28} />
-            <DiGithubBadge size={28} />
-            <DiSass size={28} />
-          </ProjectsIcons>
-        </ProjectsCard>
-        <ProjectsCard>
           <ProjectsImg src={Icon5} />
           <ProjectsH2>Landing Page for Online Store.</ProjectsH2>
           <ProjectsP>
@@ -128,25 +147,7 @@ const Projects = () => {
             <DiSass size={28} />
           </ProjectsIcons>
         </ProjectsCard>
-        <ProjectsCard>
-          <ProjectsImg src={Icon7} />
-          <ProjectsH2>The Client-server Web App with Autentication.</ProjectsH2>
-          <ProjectsP>
-            {/* The Web App for internal use of employees who are able to create
-            accounts and their own schedules. Pages are only accessible to
-            registared users. The data of registered users and schudule details
-            are stored in PpostgresQl. */}
-            HTML, CSS, Express, Postgress, Node.js
-          </ProjectsP>
-          <ProjectsIcons>
-            <DiJavascript1 size={28} />
-            <DiHtml5 size={28} />
-            <DiGithubBadge size={28} />
-            <DiNodejsSmall size={28} />
-            <DiPostgresql size={28} />
-            <SiPostman size={28} />
-          </ProjectsIcons>
-        </ProjectsCard>
+
         <ProjectsCard>
           <ProjectsImg src={Icon8} />
           <ProjectsH2>The Color Game.</ProjectsH2>

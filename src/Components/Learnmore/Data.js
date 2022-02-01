@@ -1,4 +1,4 @@
-export const homeObjOne = {
+export const homeObjTwo = {
   id: 'about',
   lightBg: true,
   lightText: false,
@@ -6,9 +6,9 @@ export const homeObjOne = {
   topLine: 'About me',
   headLine: 'Hello! I am Julia Web Developer',
   description:
-    'I am a self-taught career-changer, currently focusing on Front-end, with a goal to become Full-stack Developer. Looking for an Internship or an Entry level position. ',
+    'I am a self-taught career-changer, in my past I sold wide range of IT hardware sollutions. I am the lucky one who took a chance to change the life.',
   buttonLabel: 'Learn More',
-  imgStart: false,
+  //imgStart: false,
   //img: require('../../images/svg-6.svg'),
   alt: 'Girl on a stool',
   primary: false,

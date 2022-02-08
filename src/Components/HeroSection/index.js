@@ -13,7 +13,6 @@ import {
   ArrowForward,
   ArrowRight,
 } from './HeroElements'
-import CV from './CV.pdf'
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false)

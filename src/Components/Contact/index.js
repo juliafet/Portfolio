@@ -6,6 +6,7 @@ import {
   FormContent,
   Form,
   FormH1,
+  FormH2,
   Text,
   FormLabel,
   FormInput,
@@ -19,12 +20,12 @@ const Contact = ({ toggle }) => {
         <FormWrap>
           <Icon to="/">Julia</Icon>
           <FormContent onClick={toggle}>
-            <Form actiom="#">
+            <Form action="#">
               <FormH1>
                 Looking for a junior developer to join your team and want to
                 know me better - feel free to reach out
               </FormH1>
-
+              <FormH2>Sorry, the page is under construction</FormH2>
               <FormLabel htmlFor="for">Name</FormLabel>
               <FormInput type="text" required />
               <FormLabel htmlFor="for">Email</FormLabel>

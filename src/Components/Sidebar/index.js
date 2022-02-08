@@ -17,7 +17,7 @@ const Sidebar = ({ isOpen, toggle }) => {
     setHover(!hover)
   }
   const downloadFile = () => {
-    window.location.href = 'Resources/CV_Julia_Fetisova_Software_Engineer.pdf'
+    window.location.href = 'Resources/CV.pdf'
   }
 
   return (
@@ -39,7 +39,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="education" onClick={toggle}>
             Edu
           </SidebarLink>
-          {/*           <SidebarLink to="/contact" onClick={toggle}>
+          {/* <SidebarLink to="contact" onClick={toggle}>
             Contact
           </SidebarLink> */}
         </SidebarMenu>

@@ -45,10 +45,10 @@ const InfoSection = ({
                 <BtnWrap>
                   <NavBtn>
                     <NavBtnLink
-                      to="/learnmore"
-                      smooth={true}
+                      to="learnmore"
+                      smooth="true"
                       duration={500}
-                      spy={true}
+                      //spy="true"
                       exact="true"
                       offset={-80}
                       primary={primary ? 1 : 0}

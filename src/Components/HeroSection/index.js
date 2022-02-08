@@ -13,6 +13,7 @@ import {
   ArrowForward,
   ArrowRight,
 } from './HeroElements'
+import CV from './CV.pdf'
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false)
@@ -21,7 +22,7 @@ const HeroSection = () => {
     setHover(!hover)
   }
   const downloadFile = () => {
-    window.location.href = 'Resources/CV_Julia_Fetisova_Software_Engineer.pdf'
+    window.location.href = 'Resources/CV.pdf'
   }
 
   return (
@@ -44,6 +45,7 @@ const HeroSection = () => {
                     </Button> */}
           <NavBtn>
             <NavBtnLink
+              to="/Resources/CV.pdf"
               onMouseEnter={onHover}
               onMouseLeave={onHover}
               onClick={downloadFile}

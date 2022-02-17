@@ -7,10 +7,6 @@ import {
   Form,
   FormH1,
   FormH2,
-  Text,
-  FormLabel,
-  FormInput,
-  FormButton,
 } from './ContactElements'
 
 const Contact = ({ toggle }) => {
